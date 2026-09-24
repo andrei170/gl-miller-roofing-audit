@@ -98,10 +98,38 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 .agnav a.ext{opacity:.8}
 @media(max-width:640px){.agnav .inner{padding:0 14px}.agnav a{padding:12px 10px;font-size:13px}}
 </style></head><body><nav class="agnav"><div class="inner"><a href="assets.html">All Assets</a><a href="./">Audit</a><a href="competitors.html">Competitors</a><a href="offer.html" class="on">Pricing</a><a href="https://andrei170.github.io/gl-miller-roofing-demo/" class="ext" target="_blank" rel="noopener">Concept Site &#8599;</a></div></nav>
+<style>
+.pwrap{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:22px 0}
+@media(max-width:1000px){.pwrap{grid-template-columns:1fr}}
+
+.pcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px 20px;position:relative;display:flex;flex-direction:column}
+.pcard.feat{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 12px 38px rgba(47,129,247,.14)}
+.pribbon{position:absolute;top:-11px;left:24px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:5px 12px;border-radius:99px}
+.pkind{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);font-weight:700;margin-bottom:10px}
+.pname{font-size:20px;font-weight:700;color:var(--ink);line-height:1.2;margin-bottom:14px}
+.pprice{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.pnum{font-size:40px;font-weight:800;color:var(--ink);letter-spacing:-.02em;line-height:1}
+.pper{font-size:15px;color:var(--mut);font-weight:600}
+.psub{font-size:13.5px;color:var(--mut);margin-bottom:20px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.plist{list-style:none;padding:0;margin:0 0 20px 0;flex:1}
+.plist li{position:relative;padding:0 0 10px 24px;font-size:13.8px;line-height:1.55;color:var(--ink)}
+.plist li:before{content:"";position:absolute;left:0;top:7px;width:14px;height:14px;border-radius:50%;background:rgba(63,185,80,.14);border:1px solid rgba(63,185,80,.5)}
+.plist li:after{content:"";position:absolute;left:4.5px;top:10.5px;width:4px;height:7px;border-right:2px solid var(--good);border-bottom:2px solid var(--good);transform:rotate(42deg)}
+.pfoot{font-size:13px;color:var(--mut);border-top:1px solid var(--line);padding-top:15px;font-style:italic}
+.ptot{background:linear-gradient(180deg,rgba(47,129,247,.09),rgba(47,129,247,.03));border:1px solid rgba(47,129,247,.35);border-radius:14px;padding:22px 24px;margin-top:6px}
+.ptotrow{display:flex;justify-content:space-between;align-items:baseline;padding:9px 0;font-size:15px;border-bottom:1px dashed var(--line)}
+.ptotrow:last-of-type{border-bottom:0}
+.ptotrow b{font-size:17px}
+.ptotbig{display:flex;justify-content:space-between;align-items:baseline;margin-top:14px;padding-top:15px;border-top:2px solid var(--accent)}
+.ptotbig span{font-size:14px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.ptotbig b{font-size:30px;color:var(--ink);font-weight:800}
+.saveflag{display:inline-block;background:rgba(63,185,80,.13);border:1px solid rgba(63,185,80,.45);color:var(--good);font-size:12.5px;font-weight:700;padding:5px 12px;border-radius:99px;margin-top:12px}
+</style>
+
 <header>
   <div class="wrap">
     <div class="eyebrow">Proposal &middot; G L Miller Roofing &amp; Building &middot; Sutton, Surrey</div>
-    <div class="sub">Prepared for Gary Miller &middot; 23 September 2026 &middot; AG1 Consulting</div>
+    <div class="sub">Prepared for Gary Miller &middot; 24 September 2026 &middot; AG1 Consulting</div>
     <h1>You Told Us You Can Do Two Or Three Repairs A Day. You Are Doing Ten A Month.</h1>
 
     <div class="hero">
@@ -114,7 +142,7 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
         <p>You already pay <b>&pound;120 a month to Checkatrade</b> and <b>around &pound;90 a month for Google</b>, and
         between them they bring you <b>half your work</b>.</p>
         <p><b>Those channels are not broken. There is simply not enough going through them.</b></p>
-        <div class="tag">Figures below are yours, as given to AG1 on 23 September 2026</div>
+        <div class="tag">Figures below are yours, as given to AG1</div>
       </div>
     </div>
   </div>
@@ -137,9 +165,100 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
       <div class="lab">Read that back</div>
       <p><b>Two hundred and ten pounds a month is already buying you half your work.</b> That tells us the channels work
       and that you are willing to pay for marketing when it produces.</p>
-      <p><b>It also tells us the ceiling is not your trade, your prices or your reputation.</b> You have a 9.83 from 102
-      reviews on Checkatrade. The ceiling is how many people in Sutton know you exist this week.</p>
+      <p><b>The ceiling is not your trade, your prices or your reputation.</b> You have a 9.83 from 102 reviews on
+      Checkatrade. The ceiling is how many people in Sutton know you exist this week.</p>
     </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">Step One &mdash; The Fix</div>
+    <div class="ptot" style="background:linear-gradient(180deg,rgba(230,237,243,.05),rgba(230,237,243,.02));border-color:var(--line)">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px">
+        <div>
+          <div class="pkind">One-off &middot; do this whatever else you decide</div>
+          <div class="pname" style="margin-bottom:6px">Everything currently broken, fixed</div>
+        </div>
+        <div class="pprice" style="margin:0"><span class="pnum">&pound;950</span><span class="pper">once</span></div>
+      </div>
+      <ul class="plist" style="margin-top:16px;columns:2;column-gap:28px">
+        <li><b>Page titles say Wimbledon</b> &mdash; all four, changed to Sutton and the towns you want</li>
+        <li><b>Eight testimonials from Nottingham, Derby, Leicester and Lincoln</b> &mdash; replaced with your real Checkatrade reviews, each with its town</li>
+        <li><b>Google Business Profile rebuilt</b> &mdash; services, photos, five-mile area, Croydon left out</li>
+        <li><b>Tracking switched on</b> &mdash; Site Kit is installed and sending nothing</li>
+        <li><b>Broken email link fixed</b> &mdash; one opens a Gmail login page instead of an email</li>
+        <li>Two homepage typos, and an enquiry form on your 28 town pages</li>
+      </ul>
+      <div class="pfoot" style="border-top:1px solid var(--line);padding-top:14px">No commitment to anything monthly. If you stop here, everything above is still done.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">Step Two &mdash; Choose How Hard You Want To Push</div>
+
+    <div class="pwrap">
+
+      <div class="pcard">
+        <div class="pkind">Starter</div>
+        <div class="pname">Ads Only</div>
+        <div class="pprice"><span class="pnum">&pound;350</span><span class="pper">/ mo</span></div>
+        <div class="psub">The phone rings. Nothing compounds underneath it.</div>
+        <ul class="plist">
+          <li><b>Google Ads on emergency repair searches</b> &mdash; roof leak, emergency roofer, roof repair near me</li>
+          <li><b>Five-mile radius.</b> Sutton, Cheam, Morden, Banstead, Kingswood, Wimbledon. <b>Croydon excluded</b></li>
+          <li><b>Call tracking</b> &mdash; which search produced which job</li>
+          <li>One campaign, managed and adjusted monthly</li>
+          <li>Monthly report</li>
+        </ul>
+        <div class="pfoot">If you want the fastest thing only, and nothing else.</div>
+      </div>
+
+      <div class="pcard feat">
+        <div class="pribbon">Recommended</div>
+        <div class="pkind">Growth</div>
+        <div class="pname">Ads + Local</div>
+        <div class="pprice"><span class="pnum">&pound;500</span><span class="pper">/ mo</span></div>
+        <div class="psub">The phone rings now, and your own ground keeps building underneath it.</div>
+        <ul class="plist">
+          <li><b>Everything in Ads Only</b></li>
+          <li><b>Your 28 town pages filled in</b> &mdash; a real job you did there, a review from someone there, photographs. <b>Four a month</b></li>
+          <li><b>Review requests after every job</b>, so the 9.83 keeps climbing</li>
+          <li>Monthly Google Business Profile posts</li>
+          <li>One-page report on what each channel produced</li>
+        </ul>
+        <div class="pfoot">The ads work from week one. The pages are what make month twelve cheaper than month one.</div>
+      </div>
+
+      <div class="pcard">
+        <div class="pkind">Full</div>
+        <div class="pname">Ads + Local + Depth</div>
+        <div class="pprice"><span class="pnum">&pound;750</span><span class="pper">/ mo</span></div>
+        <div class="psub">Same again, faster, and split by the work you actually want.</div>
+        <ul class="plist">
+          <li><b>Everything in Ads + Local</b></li>
+          <li><b>Separate campaigns per service</b> &mdash; flat roof, slate and tile, chimney, guttering &mdash; so the bigger jobs get their own budget</li>
+          <li><b>Eight town pages a month</b> instead of four &mdash; all 28 done inside four months</li>
+          <li><b>A page for each service</b>, not just each town</li>
+          <li>Fortnightly reporting and a monthly call</li>
+        </ul>
+        <div class="pfoot">Worth it if the &pound;2,000 repairs turn out to be findable.</div>
+      </div>
+
+    </div>
+
+    <div class="ptot">
+      <div class="ptotrow"><span>The Fix &mdash; one payment to start</span><b>&pound;950</b></div>
+      <div class="ptotrow"><span>Monthly &mdash; Starter / Growth / Full</span><b>&pound;350 &middot; &pound;500 &middot; &pound;750</b></div>
+      <div class="ptotrow"><span>Your ad spend &mdash; paid direct to Google, you set the cap</span><b>&pound;500&ndash;600</b></div>
+      <div class="ptotbig"><span>Month one on Growth, all in</span><b>&pound;1,950&ndash;&pound;2,050</b></div>
+      <div class="ptotbig" style="border-top:1px dashed var(--line);margin-top:8px;padding-top:12px"><span>Every month after, on Growth</span><b>&pound;1,000&ndash;&pound;1,100</b></div>
+      <div class="saveflag">No tie-in on any tier. Move up, move down, or pause when you are too busy.</div>
+    </div>
+
+    <div class="tag" style="margin-top:14px"><b>We take no percentage of your ad spend.</b> It goes straight to Google, you set the cap, and you can raise or drop it any month. <b>Every tier includes the ads</b> &mdash; the difference is how much is being built underneath them.</div>
   </div>
 </section>
 
@@ -151,59 +270,11 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
       <p><b>Roof repair is a weather trade.</b> Autumn and winter storms are when ceilings start leaking and people
       search for a roofer the same hour they notice it. That season starts in a matter of weeks.</p>
       <p><b>Somebody with water coming through a bedroom ceiling does not shop around.</b> They search, they ring one of
-      the first firms they see, and they book. That is the single best kind of enquiry there is, and it is the kind that
-      advertising can put in front of you within days rather than months.</p>
-      <p><b>If you want more repairs fast, this is the lever.</b> Everything else on this page is worth doing, but the
-      rest of it compounds slowly and this does not.</p>
+      the first firms they see, and they book. That is the best kind of enquiry there is, and advertising can put you in
+      front of it within days rather than months.</p>
+      <p><b>The town pages and the reviews compound slowly underneath it</b> &mdash; which is why they are in the same
+      monthly fee rather than sold to you separately.</p>
     </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="h">The Three Things We Would Sell You</div>
-    <div class="two">
-      <div class="box">
-        <div class="tagp">One &mdash; do this whatever else you decide</div>
-        <h3>The Fix &mdash; &pound;950 one-off</h3>
-        <ul>
-          <li><b>Your page titles say Wimbledon.</b> All four main pages. Changed to Sutton and the towns you actually want.</li>
-          <li><b>The eight testimonials on your homepage are from Nottingham, Derby, Leicester and Lincoln.</b> Replaced with your real Checkatrade reviews, with the actual town on each one.</li>
-          <li><b>Your Google Business Profile rebuilt</b> &mdash; services, photos, the five-mile service area set properly, Croydon left out. This is free to do and it is where repair enquiries begin.</li>
-          <li><b>Tracking switched on.</b> Site Kit is already installed on your site and is not sending anything.</li>
-          <li><b>Your email link is broken</b> &mdash; one of them opens a Gmail login page instead of an email. Fixed.</li>
-          <li>Two typos on the homepage, and an enquiry form added to your 28 town pages.</li>
-        </ul>
-        <div class="when">One payment. No commitment to anything else.</div>
-      </div>
-      <div class="box pri">
-        <span class="ribbon">Recommended</span>
-        <div class="tagp">Two &mdash; the fast one</div>
-        <h3>Repair Leads &mdash; &pound;350/month<br><span style="font-size:15px;opacity:.85">plus your own ad spend</span></h3>
-        <ul>
-          <li><b>Google Ads built around emergency repair searches</b> &mdash; roof leak, emergency roofer, roof repair near me.</li>
-          <li><b>Five-mile radius only.</b> Sutton and surrounds, Cheam, Morden, Banstead, Kingswood, Wimbledon. <b>Croydon excluded, as you asked.</b></li>
-          <li>Calls tracked, so you can see which search produced which job.</li>
-          <li>Paused or scaled month to month depending on how busy you are.</li>
-          <li><b>Suggested starting spend: &pound;500&ndash;&pound;600 a month</b>, paid by you straight to Google. That is your money, not ours, and we take no percentage of it.</li>
-        </ul>
-        <div class="when">This is the one that rings the phone in days rather than months.</div>
-      </div>
-    </div>
-
-    <div class="box" style="margin-top:16px">
-      <div class="tagp">Three &mdash; the slow one, and only once there is data</div>
-      <h3>The Long Game &mdash; &pound;250/month</h3>
-      <ul>
-        <li><b>Your 28 town pages filled in properly</b> &mdash; a real job you did in that town, a review from someone in that town, photographs. A few pages a month rather than all at once.</li>
-        <li>Review requests after every job, so the Checkatrade and Google scores keep building.</li>
-        <li>Monthly Google Business Profile posts.</li>
-        <li>A one-page report showing what each channel produced.</li>
-      </ul>
-      <div class="when"><b>We would not start this on day one.</b> Take The Fix, get thirty days of tracking, and then decide whether this is worth &pound;250 a month to you. If the numbers do not justify it, we will say so.</div>
-    </div>
-
-    <div class="tag" style="margin-top:14px">Each can be bought on its own. <b>The Fix should come first or alongside the ads</b> &mdash; sending paid clicks to a page that says Wimbledon and shows reviews from Lincoln is paying for traffic and then losing it.</div>
   </div>
 </section>
 
@@ -212,7 +283,7 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
     <div class="h">The One Number We Need From You Before Any Of This</div>
     <div class="flag">
       <div class="lab">We are asking rather than assuming</div>
-      <p>You told us materials run at <b>80%</b>. We want to be certain what that means, because it changes whether
+      <p>You told us materials run at <b>80%</b>. We want to be certain what that means, because it decides whether
       advertising is sensible at all.</p>
       <div class="code">
   If materials are 80% of the job price:
@@ -224,8 +295,8 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
     &mdash; and advertising works comfortably.
       </div>
       <p><b>On a &pound;400 repair, what is left after materials?</b> If the answer is closer to the first line, we will
-      tell you to take The Fix, do the free things, and keep your money. <b>We are not going to sell you advertising
-      that cannot pay for itself.</b></p>
+      tell you to take The Fix, do the free things below, and keep your money. <b>We are not going to sell you
+      advertising that cannot pay for itself.</b></p>
     </div>
   </div>
 </section>
@@ -237,8 +308,8 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
       <div class="lab">Because they are the fastest money available to you and they are not ours to sell</div>
       <ul>
         <li><b>Message your past customers before the storms.</b> You have done hundreds of repairs and hold 102
-        reviews. A short note offering to check their roof over before winter is the quickest work you will get this
-        month, and it costs nothing.</li>
+        reviews. A short note offering to check their roof before winter is the quickest work you will get this month,
+        and it costs nothing.</li>
         <li><b>Ask every customer for a review, every time.</b> You are at 9.83 from 102. Your competitors are not
         close. That score is the reason people ring you rather than the next name on the list.</li>
       </ul>
@@ -276,38 +347,39 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 
 <footer>
   <div class="wrap">
-    Prepared by Andrei Givero &middot; AG1 Consulting &middot; 23 September 2026<br><br>
+    Prepared by Andrei Givero &middot; AG1 Consulting &middot; 24 September 2026<br><br>
     For Gary Miller, G L Miller Roofing &amp; Building, Sutton, Surrey. <b>All figures describing your business &mdash;
-    ten jobs a month, the capacity of two to three jobs a day when local, typical repair values of &pound;300&ndash;&pound;400
-    with some between &pound;500 and &pound;1,000 and occasionally &pound;2,000, the split of referrals at 50%, website at
-    30% and Checkatrade at 20%, the &pound;120 monthly Checkatrade cost, the approximately &pound;90 monthly cost of your
-    Google supplier, the five-mile radius, the towns served, the exclusion of Croydon, and the statement that materials
-    run at 80% &mdash; are as you gave them to AG1 on 23 September 2026. They are your figures, not ours, and have not
-    been independently verified.</b> <b>The capacity comparison and the per-channel job counts are simple arithmetic on
-    those reported figures, shown for discussion only. They are not forecasts and not a claim that any additional job
-    will result from this work.</b> <b>The two readings of the 80% materials figure are offered precisely because we do
-    not know which is correct; no pricing, recommendation or suitability assessment in this document should be relied on
-    until that is confirmed.</b> <b>Website statements &mdash; the page titles targeting Wimbledon, the eight
-    testimonials attributed to Midlands towns, the 32 pages including 28 town pages, the absence of a working analytics
-    tag despite Site Kit being installed, the malformed email link and the two homepage typos &mdash; were read from
-    your own served pages on 17 September 2026 and are reproducible; items recorded as absent describe what a static
-    read returned and are not proof of absence.</b> <b>The Checkatrade rating of 9.83 from 102 reviews and the Google
-    rating of 4.9 are as displayed on those platforms when read and may since have changed; AG1 does not verify or
-    endorse any platform's ratings.</b> <b>Regarding the homepage testimonials: we make no allegation about their
-    origin and their most likely explanation is template content left in place by a previous website builder. However,
-    publishing consumer reviews that are not from genuine customers has been prohibited in the UK since 6 April 2025
-    under the Digital Markets, Competition and Consumers Act 2024, with substantial penalties. This is a general
-    statement of the law as we understand it, is not legal advice, and you should take your own advice; we recommend
-    replacing them with your genuine reviews regardless.</b> <b>Suggested advertising spend is an illustrative starting
-    figure only; advertising costs, click prices, competition and results vary continuously and are set by Google, not
-    by AG1. ⚠ No number of clicks, calls, enquiries, booked jobs, cost per lead, ranking, map position or revenue
-    outcome is promised, forecast or guaranteed anywhere in this document, and nothing here should be read as such.</b>
-    Prices are in pounds sterling, exclude VAT and any applicable taxes, exclude advertising spend payable by you
-    directly to the platform, and are valid for 30 days. Final terms, deliverables, payment schedule and notice periods
-    would be set out in a written agreement before any work begins. Nothing in this document is a contract or an offer
-    capable of acceptance. Nothing here is a comment on the competence, licensing, insurance or workmanship of this or
-    any other business, nor on the work of any other supplier, and nothing here is legal, financial or business advice.
-    Company and platform names are used for identification only and belong to their respective owners.
+    ten jobs a month, the capacity of two to three jobs a day when local, typical repair values of
+    &pound;300&ndash;&pound;400 with some between &pound;500 and &pound;1,000 and occasionally &pound;2,000, the split of
+    referrals at 50%, website at 30% and Checkatrade at 20%, the &pound;120 monthly Checkatrade cost, the approximately
+    &pound;90 monthly cost of your Google supplier, the five-mile radius, the towns served, the exclusion of Croydon,
+    and the statement that materials run at 80% &mdash; are as you gave them to AG1. They are your figures, not ours,
+    and have not been independently verified.</b> <b>The capacity comparison and the per-channel job counts are simple
+    arithmetic on those reported figures, shown for discussion only. They are not forecasts and not a claim that any
+    additional job will result from this work.</b> <b>The two readings of the 80% materials figure are offered
+    precisely because we do not know which is correct; no pricing, recommendation or suitability assessment in this
+    document should be relied on until that is confirmed.</b> <b>Website statements &mdash; the page titles targeting
+    Wimbledon, the eight testimonials attributed to Midlands towns, the 32 pages including 28 town pages, the absence of
+    a working analytics tag despite Site Kit being installed, the malformed email link and the two homepage typos
+    &mdash; were read from your own served pages on 17 September 2026 and are reproducible; items recorded as absent
+    describe what a static read returned and are not proof of absence.</b> <b>The Checkatrade rating of 9.83 from 102
+    reviews and the Google rating of 4.9 are as displayed on those platforms when read and may since have changed; AG1
+    does not verify or endorse any platform's ratings.</b> <b>Regarding the homepage testimonials: we make no
+    allegation about their origin and their most likely explanation is template content left in place by a previous
+    website builder. However, publishing consumer reviews that are not from genuine customers has been prohibited in
+    the UK since 6 April 2025 under the Digital Markets, Competition and Consumers Act 2024, with substantial
+    penalties. This is a general statement of the law as we understand it, is not legal advice, and you should take
+    your own advice; we recommend replacing them with your genuine reviews regardless.</b> <b>Suggested advertising
+    spend is an illustrative starting figure only; advertising costs, click prices, competition and results vary
+    continuously and are set by Google, not by AG1. ⚠ No number of clicks, calls, enquiries, booked jobs, cost per
+    lead, ranking, map position or revenue outcome is promised, forecast or guaranteed anywhere in this document, and
+    nothing here should be read as such.</b> Prices are in pounds sterling, exclude VAT and any applicable taxes,
+    exclude advertising spend payable by you directly to the platform, and are valid for 30 days. Final terms,
+    deliverables, payment schedule and notice periods would be set out in a written agreement before any work begins.
+    Nothing in this document is a contract or an offer capable of acceptance. Nothing here is a comment on the
+    competence, licensing, insurance or workmanship of this or any other business, nor on the work of any other
+    supplier, and nothing here is legal, financial or business advice. Company and platform names are used for
+    identification only and belong to their respective owners.
   </div>
 </footer>
 </body></html>
